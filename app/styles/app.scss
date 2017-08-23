@@ -1,2 +1,8 @@
 @import "base/variables";
 @import "components/navigation";
+@import "components/clock";
+
+.custom-row {
+    width: 480px;
+    margin: auto;
+}

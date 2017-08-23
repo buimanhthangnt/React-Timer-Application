@@ -5,8 +5,9 @@ var Main = (props) => {
 	return (
 		<div>
 			<Navigation/>
-			<h1>Bui Manh Thang</h1>
-			{props.children}
+			<div className="custom-row">
+				{props.children}
+			</div>
 		</div>
 	);
 };
